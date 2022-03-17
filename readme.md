@@ -29,7 +29,7 @@ These are expected to be run as the system account and should not be run manuall
 
 | Script | Purpose |
 | ------------ | ------------ |
-| `cron_monitor.sh` | Runs every minute to ensure that Zomboid is running and restart it if it is not |
+| `cron_monitor.sh` | Runs every minute to ensure that Zomboid is running and restart it if it is not. This is used in conjunction with [UpdatePlz](https://steamcommunity.com/sharedfiles/filedetails/?id=2779169728) which shuts the server down when the workshop is out of date and no players are connected |
 | `cron_shutdown.sh` | Shuts the zomboid server down at the end of the night, runs backups and powers off |
 | `cron_startup.sh` | Triggers on physical server boot to start the Zomboid application |
 | `cron_update.sh` | Updates Zomboid through steam, all of it's mods through workshop and then starts server |
