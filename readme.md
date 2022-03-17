@@ -42,7 +42,7 @@ For example, the `server-restart.sh` script actually includes the stop, update a
 
 | Script | Purpose |
 | ------------ | ------------ |
-| `/includes/message.sh` | Sends an in-game message to all connected zomboid players |
+| `/includes/message.sh` | Sends an in-game message to all players |
 | `/includes/start.sh` | Starts the Zomboid Server |
 | `/includes/stop.sh` | Stops the Zomboid Server |
 | `/includes/update.sh` | Updates the Zomboid Server software |
