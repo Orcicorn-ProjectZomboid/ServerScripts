@@ -5,6 +5,11 @@ Some terminology used below is as follows:
 - **Server**: The physical machine running all of these processes
 - **Zomboid Server**: The Project Zomboid server executeable that powers the game
 
+Caveats:
+- Assumes the user account is called `steam`
+- Assumes the scripts are located in `/home/steam/scripts/`
+- Assumes `screen` and `steamcmd` has already been installed
+
 ## Manually run task scripts
 These are a series of scripts/commands that are created for a human to manually trigger and tell the server which actions to take.
 
